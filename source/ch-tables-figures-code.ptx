@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter xml:id="ch-tables-figures-code" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Tables, Figures and Code</title>
+  <introduction>
+    <p>This chapter adds material that is not running text: tables, figures with images, figures side by side, and code listings.</p>
+  </introduction>
+  <xi:include href="./sec-tables.ptx" />
+  <xi:include href="./sec-figures.ptx" />
+  <xi:include href="./sec-code.ptx" />
+</chapter>

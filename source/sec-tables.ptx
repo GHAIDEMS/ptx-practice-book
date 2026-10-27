@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="sec-tables" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Tables</title>
+  <p><xref ref="table-powers" /> lists the first squares and cubes.</p>
+  <table xml:id="table-powers">
+    <title>Squares and cubes</title>
+    <tabular halign="center" bottom="minor">
+      <row header="yes" bottom="major">
+        <cell><m>n</m></cell>
+        <cell><m>n^2</m></cell>
+        <cell><m>n^3</m></cell>
+      </row>
+      <row><cell>1</cell><cell>1</cell><cell>1</cell></row>
+      <row><cell>2</cell><cell>4</cell><cell>8</cell></row>
+      <row><cell>3</cell><cell>9</cell><cell>27</cell></row>
+      <row><cell>4</cell><cell>16</cell><cell>64</cell></row>
+      <row><cell>5</cell><cell>25</cell><cell>125</cell></row>
+      <row><cell>6</cell><cell>36</cell><cell>216</cell></row>
+    </tabular>
+  </table>
+</section>

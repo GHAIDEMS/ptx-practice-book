@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="90" viewBox="0 0 200 90">
+  <circle cx="15" cy="20" r="6" fill="#1f5fbf"/>
+  <circle cx="60" cy="20" r="6" fill="#1f5fbf"/>
+  <circle cx="78" cy="20" r="6" fill="#1f5fbf"/>
+  <circle cx="60" cy="38" r="6" fill="#1f5fbf"/>
+  <circle cx="78" cy="38" r="6" fill="#1f5fbf"/>
+  <circle cx="115" cy="20" r="6" fill="#1f5fbf"/>
+  <circle cx="133" cy="20" r="6" fill="#1f5fbf"/>
+  <circle cx="151" cy="20" r="6" fill="#1f5fbf"/>
+  <circle cx="115" cy="38" r="6" fill="#1f5fbf"/>
+  <circle cx="133" cy="38" r="6" fill="#1f5fbf"/>
+  <circle cx="151" cy="38" r="6" fill="#1f5fbf"/>
+  <circle cx="115" cy="56" r="6" fill="#1f5fbf"/>
+  <circle cx="133" cy="56" r="6" fill="#1f5fbf"/>
+  <circle cx="151" cy="56" r="6" fill="#1f5fbf"/>
+  <text x="12" y="82" font-family="sans-serif" font-size="12">1</text>
+  <text x="64" y="82" font-family="sans-serif" font-size="12">4</text>
+  <text x="124" y="82" font-family="sans-serif" font-size="12">9</text>
+</svg>

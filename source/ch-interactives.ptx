@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter xml:id="ch-interactives" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Interactive Content</title>
+  <introduction>
+    <p>The web version of a book can contain live content. These examples need an internet connection when you view them. In the PDF version they appear as static placeholders.</p>
+  </introduction>
+  <xi:include href="./sec-geogebra.ptx" />
+  <xi:include href="./sec-desmos.ptx" />
+  <xi:include href="./sec-iframe.ptx" />
+  <!-- Optional: uncomment after you have exported a STACK question (see the STACK practice material). -->
+  <!-- <xi:include href="./sec-stack.ptx" /> -->
+</chapter>

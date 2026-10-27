@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="sec-paragraphs-emphasis" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Paragraphs and Emphasis</title>
+  <introduction>
+    <p>A paragraph is the basic unit of text. Write one idea per paragraph, and start a new <c>p</c> element for the next idea.</p>
+    <p>Use <em>emphasis</em> for ordinary stress. Use <alert>alert</alert> for a warning the reader must not miss. Use <term>term</term> the first time you introduce a technical word, such as <term>divisor</term>. Use <c>c</c> for computer text such as <c>pretext build web</c>.</p>
+  </introduction>
+  <subsection xml:id="subsec-quotes-dashes">
+    <title>Quotations, Dashes and Links</title>
+    <p>Quotations use <q>double quotation marks</q>, and a quotation inside a quotation uses <sq>single</sq> marks. Ranges use an en dash, as in pages 10<ndash />12. A break in a sentence uses an em dash<mdash />like this. Trailing thoughts use an ellipsis<ellipsis />. A footnote<fn>A footnote appears at the bottom of the page in print and in a pop-up online.</fn> is written inside the sentence it belongs to. A web link is written <url href="https://pretextbook.org" visual="pretextbook.org">like this</url>.</p>
+  </subsection>
+  <subsection xml:id="subsec-special-characters">
+    <title>Characters That Need Care</title>
+    <p>XML reserves two characters. To print an ampersand write <c>&amp;amp;</c>, so that <q>Tom &amp; Jerry</q> displays correctly. To print a less-than sign write <c>&amp;lt;</c>, so that <c>&lt;p&gt;</c> displays as a tag name.</p>
+  </subsection>
+</section>

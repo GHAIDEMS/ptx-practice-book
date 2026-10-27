@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<docinfo xmlns:xi="http://www.w3.org/2001/XInclude">
+  <!-- Folder for images and other files you made yourself.            -->
+  <!-- The path is relative to this source folder.                     -->
+  <!-- This location is for PreTeXt-CLI 2.46.0 and later.              -->
+  <directories external="../assets" />
+  <!-- Math shortcuts, written in LaTeX.  Name them by meaning. -->
+  <macros>
+    \newcommand{\N}{\mathbb N}
+    \newcommand{\Z}{\mathbb Z}
+    \newcommand{\R}{\mathbb R}
+    \newcommand{\divides}{\mathrel{\mid}}
+    \newcommand{\abs}[1]{\left\lvert #1\right\rvert}
+  </macros>
+</docinfo>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter xml:id="ch-mathematics" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Mathematics</title>
+  <introduction>
+    <p>PreTeXt writes mathematics in LaTeX notation. This chapter shows inline mathematics, displayed mathematics, numbered equations, aligned equations, and the macros defined in <c>docinfo.ptx</c>.</p>
+  </introduction>
+  <xi:include href="./sec-inline-display.ptx" />
+  <xi:include href="./sec-numbered-aligned.ptx" />
+</chapter>

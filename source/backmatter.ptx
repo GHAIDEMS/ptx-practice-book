@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<backmatter xml:id="backmatter" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <!-- A solutions element placed directly in backmatter covers the whole book -->
+  <solutions divisional="statement hint answer solution" inline="statement answer solution">
+    <title>Hints, Answers and Solutions</title>
+  </solutions>
+
+  <references xml:id="references">
+    <title>References</title>
+    <biblio type="raw" xml:id="bib-euclid">Euclid. <em>The Thirteen Books of the Elements</em>. Translated by T. L. Heath. Dover, 1956.</biblio>
+    <biblio type="raw" xml:id="bib-hardy-wright">G. H. Hardy and E. M. Wright. <em>An Introduction to the Theory of Numbers</em>. Oxford University Press, 6th edition, 2008.</biblio>
+  </references>
+
+  <index>
+    <title>Index</title>
+    <index-list />
+  </index>
+
+  <!-- the back colophon: a note on how the book was made -->
+  <colophon>
+    <p>This book was written in <pretext />.</p>
+  </colophon>
+</backmatter>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="sec-inline-display" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Inline and Displayed Mathematics</title>
+  <p>Mathematics inside a sentence goes in <c>m</c>. For example, the square of a number <m>n</m> is <m>n^2</m>, and <m>n</m> belongs to the set <m>\N</m> of natural numbers. The shortcut <c>\N</c> was defined once in <c>docinfo.ptx</c>.</p>
+  <p>Two characters need special spelling inside mathematics. Write <c>\lt</c> for less-than and <c>\gt</c> for greater-than, as in <m>a \lt b</m> and <m>b \gt a</m>. Write <c>\amp</c> for a literal ampersand.</p>
+  <p>A formula that deserves its own line goes in <c>md</c>. Here is the sum of the first <m>n</m> odd numbers:</p>
+  <md>\sum_{k=1}^{n} (2k-1) = n^2</md>.
+  <p>Notice that the full stop sits immediately after the closing tag, not inside it.</p>
+</section>

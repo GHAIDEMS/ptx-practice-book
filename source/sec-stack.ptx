@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="sec-stack" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>A STACK Question</title>
+  <p>This section needs a STACK server and an exported question file. See the STACK practice material.</p>
+  <exercise xml:id="ex-stack-expand">
+    <title>Expand a Product</title>
+    <introduction>
+      <p>A question authored in STACK and exported as XML.</p>
+    </introduction>
+    <!-- @label is required and becomes a file name in the output -->
+    <stack label="stack-expand" source="stack/expand-product.xml" />
+  </exercise>
+</section>

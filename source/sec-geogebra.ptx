@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="sec-geogebra" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>GeoGebra</title>
+  <p>A GeoGebra applet is loaded by its material identifier, the code at the end of its web address.</p>
+  <figure xml:id="fig-geogebra">
+    <caption>A GeoGebra applet</caption>
+    <interactive xml:id="geogebra-train" platform="geogebra" width="75%" aspect="2:1">
+      <shortdescription>An interactive GeoGebra graph.</shortdescription>
+      <description>
+        <p>An interactive graph that the reader can explore with the mouse.</p>
+      </description>
+      <slate xml:id="slate-train" surface="geogebra" material="D4s2v4ft" aspect="2:1" />
+    </interactive>
+  </figure>
+</section>

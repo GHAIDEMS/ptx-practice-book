@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="sec-numbered-aligned" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Numbered and Aligned Equations</title>
+  <p>A single numbered equation is an <c>md</c> with <c>number="yes"</c>. Give it an <c>xml:id</c> so that you can refer to it:</p>
+  <md number="yes" xml:id="eq-binomial">(a+b)^2 = a^2 + 2ab + b^2</md>.
+  <p>Equation <xref ref="eq-binomial" /> is used below. Several lines that should line up on an equals sign also go in <c>md</c>, but with one <c>mrow</c> per line and <c>\amp</c> marking the alignment point:</p>
+  <md>
+    <mrow>(x+3)^2 \amp= x^2 + 6x + 9</mrow>
+    <mrow>(x-3)^2 \amp= x^2 - 6x + 9</mrow>
+  </md>.
+  <p>When every line should be numbered, put <c>number="yes"</c> on the <c>md</c>. A single line can be left unnumbered with <c>number="no"</c>, and a numbered line can carry its own <c>xml:id</c>:</p>
+  <md number="yes">
+    <mrow xml:id="eq-diff-squares">(x+5)(x-5) \amp= x^2 - 25</mrow>
+    <mrow xml:id="eq-expand-4">(x+4)^2 \amp= x^2 + 8x + 16</mrow>
+    <mrow number="no">(2x-1)^2 \amp= 4x^2 - 4x + 1</mrow>
+  </md>.
+  <p>The first line above is Equation <xref ref="eq-diff-squares" />.</p>
+</section>

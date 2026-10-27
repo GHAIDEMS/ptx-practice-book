@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <!-- docinfo first: macros and book-wide settings -->
+  <xi:include href="./docinfo.ptx" />
+  <book xml:id="practice-book">
+    <title>Numbers and Shapes</title>
+    <subtitle>A PreTeXt Practice Book</subtitle>
+    <!-- everything before Chapter 1 -->
+    <xi:include href="./frontmatter.ptx" />
+    <!-- chapters, easiest first -->
+    <xi:include href="./ch-starting-out.ptx" />
+    <xi:include href="./ch-mathematics.ptx" />
+    <xi:include href="./ch-theorems.ptx" />
+    <xi:include href="./ch-tables-figures-code.ptx" />
+    <xi:include href="./ch-exercises.ptx" />
+    <xi:include href="./ch-interactives.ptx" />
+    <!-- answers, references, index -->
+    <xi:include href="./backmatter.ptx" />
+  </book>
+</pretext>

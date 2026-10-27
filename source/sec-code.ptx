@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="sec-code" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Code Listings</title>
+  <p>A numbered code listing wraps a <c>program</c> in a <c>listing</c>. <xref ref="listing-is-prime" /> tests whether a number is prime.</p>
+  <listing xml:id="listing-is-prime">
+    <caption>A primality test in Python</caption>
+    <program language="python">
+      <code>
+def is_prime(n):
+    if n &lt; 2:
+        return False
+    for d in range(2, int(n ** 0.5) + 1):
+        if n % d == 0:
+            return False
+    return True
+
+print([p for p in range(2, 20) if is_prime(p)])
+      </code>
+    </program>
+  </listing>
+  <p>Running it prints the primes below 20:</p>
+  <console>
+    <input>python is_prime.py</input>
+    <output>[2, 3, 5, 7, 11, 13, 17, 19]</output>
+  </console>
+</section>

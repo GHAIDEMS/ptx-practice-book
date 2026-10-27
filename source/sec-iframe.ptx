@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="sec-iframe" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Embedding an External Page</title>
+  <p>Anything that offers an <q>embed</q> address can be placed in the book with an <c>iframe</c> attribute. This is also how you embed a question that is hosted on another site.</p>
+  <figure xml:id="fig-iframe">
+    <caption>An externally hosted simulation</caption>
+    <interactive xml:id="iframe-simulation" iframe="https://phet.colorado.edu/sims/html/fourier-making-waves/latest/fourier-making-waves_en.html" width="95%" aspect="15:10">
+      <shortdescription>An interactive wave simulation.</shortdescription>
+      <description>
+        <p>A simulation in which the reader combines sine waves to build a new wave.</p>
+      </description>
+    </interactive>
+  </figure>
+</section>

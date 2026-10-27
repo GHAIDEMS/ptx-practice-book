@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter xml:id="ch-starting-out" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Starting Out</title>
+  <introduction>
+    <p>Every chapter may begin with an introduction: text that comes before the first section. In this chapter you will meet the plain-text building blocks of a book: paragraphs, emphasis, quotations, special characters and lists.</p>
+  </introduction>
+  <xi:include href="./sec-paragraphs-emphasis.ptx" />
+  <xi:include href="./sec-lists.ptx" />
+</chapter>

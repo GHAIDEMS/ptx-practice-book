@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter xml:id="ch-theorems" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Definitions, Theorems and Proofs</title>
+  <introduction>
+    <p>Mathematical writing has its own building blocks. This chapter introduces definitions, theorems, lemmas, corollaries and proofs, then examples and remarks, then cross-references, index entries and citations.</p>
+  </introduction>
+  <xi:include href="./sec-definitions-theorems.ptx" />
+  <xi:include href="./sec-examples-remarks.ptx" />
+  <xi:include href="./sec-xrefs-index-citations.ptx" />
+</chapter>

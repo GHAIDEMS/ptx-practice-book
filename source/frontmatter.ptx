@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<frontmatter xml:id="frontmatter" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <!-- 1. metadata: required.  Used to build the title page and copyright page. -->
+  <bibinfo>
+    <author>
+      <personname>Emmanuel</personname>
+      <department>GHAIDEMS Technology Team</department>
+      <institution>GHAIDEMS</institution>
+      <email>info@ghaidems.org</email>
+    </author>
+    <date><today /></date>
+    <edition>Practice Edition</edition>
+    <website>
+      <url href="https://pretextbook.org" visual="pretextbook.org">PreTeXt</url>
+    </website>
+    <copyright>
+      <year>2026</year>
+      <holder>GHAIDEMS</holder>
+      <shortlicense>This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit <url href="http://creativecommons.org/licenses/by-sa/4.0/" visual="creativecommons.org/licenses/by-sa/4.0">creativecommons.org/licenses/by-sa/4.0</url>.</shortlicense>
+    </copyright>
+    <keywords>
+      <keyword>PreTeXt</keyword>
+      <keyword>practice</keyword>
+      <keyword>number theory</keyword>
+    </keywords>
+  </bibinfo>
+
+  <!-- 2. title page: empty element, filled automatically from bibinfo -->
+  <titlepage>
+    <titlepage-items />
+  </titlepage>
+
+  <!-- 3. copyright page ("front colophon"): also automatic -->
+  <colophon xml:id="front-colophon">
+    <colophon-items />
+  </colophon>
+
+  <!-- 4. author biography -->
+  <biography xml:id="author-bio">
+    <p>Alex Intern is a practice author. Replace this paragraph with a sentence about yourself.</p>
+  </biography>
+
+  <!-- 5. dedication -->
+  <dedication xml:id="dedication">
+    <p>For the next person who opens a PreTeXt file for the first time.</p>
+  </dedication>
+
+  <!-- 6. acknowledgement (note the spelling) -->
+  <acknowledgement xml:id="acknowledgement">
+    <p>Thanks to the PreTeXt community, whose documentation made this book possible.</p>
+  </acknowledgement>
+
+  <!-- 7. preface -->
+  <preface xml:id="preface">
+    <title>To the Intern</title>
+    <p>This small book is a workbook. It looks like an ordinary textbook, but every page was written to use one more PreTeXt feature than the page before. Read it in your browser, then open the source and see how each page was made.</p>
+    <p>The mathematics is deliberately gentle, so that you can concentrate on the markup.</p>
+  </preface>
+</frontmatter>

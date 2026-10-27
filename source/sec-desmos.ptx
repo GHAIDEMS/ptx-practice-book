@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="sec-desmos" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Desmos</title>
+  <p>A Desmos graph is loaded by its identifier, the code at the end of its share address.</p>
+  <figure xml:id="fig-desmos">
+    <caption>A Desmos graph</caption>
+    <interactive xml:id="desmos-graph" desmos="ttox1bvxku" width="60%" aspect="2:3">
+      <shortdescription>An interactive graph of a function.</shortdescription>
+      <description>
+        <p>An interactive graph of a logarithmic function that the reader can zoom and trace.</p>
+      </description>
+    </interactive>
+  </figure>
+</section>

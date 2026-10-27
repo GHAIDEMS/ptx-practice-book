@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="sec-xrefs-index-citations" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Cross-References, Index and Citations</title>
+  <p>A cross-reference points to anything that has an <c>xml:id</c>. The default text names the target and its number, as in <xref ref="thm-sum-odd" />. You can ask for just the number, as in <xref ref="thm-sum-odd" text="global" />, or the title, as in <xref ref="thm-sum-odd" text="title" />. A reference to a whole chapter reads <xref ref="ch-mathematics" />, and one to a section reads <xref ref="sec-lists" />.</p>
+  <p>Index entries are invisible in the text. The entry for <idx>Euclid</idx>Euclid's proof that there are infinitely many primes is cited in <xref ref="bib-euclid" detail="Book IX, Proposition 20" />. A general introduction to divisibility and primes is <xref ref="bib-hardy-wright" />.</p>
+  <theorem xml:id="thm-infinite-primes">
+    <title>Infinitely Many Primes</title>
+    <idx><h>prime number</h><h>infinitude of</h></idx>
+    <statement>
+      <p>There are infinitely many prime numbers.</p>
+    </statement>
+    <proof>
+      <p>Suppose the primes were <m>p_1, \dots, p_r</m>. Let <m>N = p_1 p_2 \cdots p_r + 1</m>. No <m>p_i</m> divides <m>N</m>, since each leaves remainder <m>1</m>. But <m>N \gt 1</m> has a prime divisor, a contradiction.</p>
+    </proof>
+  </theorem>
+</section>

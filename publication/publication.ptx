@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<publication>
+  <common>
+    <!-- Split the web version into one page per chapter -->
+    <chunking level="1" />
+    <!-- Show hints at the exercise; keep answers and solutions for the back of the book -->
+    <exercise-inline statement="yes" hint="yes" answer="no" solution="no" />
+    <exercise-divisional statement="yes" hint="yes" answer="no" solution="no" />
+  </common>
+  <source>
+    <!-- Where generated images go. Nothing is generated in this book, but the folder must be named. -->
+    <directories generated="../generated-assets" />
+  </source>
+  <html>
+    <!-- Native search box -->
+    <search variant="default" />
+  </html>
+</publication>

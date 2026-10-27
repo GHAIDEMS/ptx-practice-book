@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter xml:id="ch-exercises" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Exercises</title>
+  <introduction>
+    <p>Exercises can sit inside the text (inline) or be collected at the end of a section or chapter (divisional). Each may carry a hint, an answer and a full solution.</p>
+  </introduction>
+  <section xml:id="sec-inline-exercise">
+    <title>An Inline Exercise</title>
+    <p>Try this before reading on.</p>
+    <exercise xml:id="ex-inline-91">
+      <title>Is 91 Prime?</title>
+      <statement>
+        <p>Decide whether <m>91</m> is prime.</p>
+      </statement>
+      <hint>
+        <p>Try dividing by <m>7</m>.</p>
+      </hint>
+      <answer>
+        <p>No.</p>
+      </answer>
+      <solution>
+        <p>Since <m>91 = 7 \cdot 13</m>, the number <m>91</m> has the divisor <m>7</m> and is not prime.</p>
+      </solution>
+    </exercise>
+  </section>
+  <exercises xml:id="exercises-chapter">
+    <title>Chapter Exercises</title>
+    <introduction>
+      <p>Hints, answers and solutions appear in the back of the book.</p>
+    </introduction>
+    <exercise xml:id="ex-gcd-84-36">
+      <statement>
+        <p>Find <m>\gcd(84, 36)</m>.</p>
+      </statement>
+      <hint>
+        <p>Use repeated division, as in <xref ref="ex-gcd" />.</p>
+      </hint>
+      <answer>
+        <p><m>12</m></p>
+      </answer>
+      <solution>
+        <p>We have <m>84 = 2 \cdot 36 + 12</m> and <m>36 = 3 \cdot 12 + 0</m>, so the answer is <m>12</m>.</p>
+      </solution>
+    </exercise>
+    <exercisegroup>
+      <title>Expanding</title>
+      <introduction>
+        <p>Expand each expression.</p>
+      </introduction>
+      <exercise xml:id="ex-expand-a">
+        <statement><p><m>(x+4)^2</m></p></statement>
+        <answer><p><m>x^2 + 8x + 16</m></p></answer>
+      </exercise>
+      <exercise xml:id="ex-expand-b">
+        <statement><p><m>(2x-1)^2</m></p></statement>
+        <answer><p><m>4x^2 - 4x + 1</m></p></answer>
+      </exercise>
+      <exercise xml:id="ex-expand-c">
+        <statement><p><m>(x+5)(x-5)</m></p></statement>
+        <answer><p><m>x^2 - 25</m></p></answer>
+      </exercise>
+    </exercisegroup>
+    <exercise xml:id="ex-odd-sums">
+      <title>Sums of Odd Numbers</title>
+      <statement>
+        <p>Use <xref ref="thm-sum-odd" />.</p>
+      </statement>
+      <task>
+        <statement><p>Find the sum of the first <m>20</m> odd numbers.</p></statement>
+        <answer><p><m>400</m></p></answer>
+      </task>
+      <task>
+        <statement><p>How many odd numbers, starting from <m>1</m>, add up to <m>169</m>?</p></statement>
+        <hint><p>Solve <m>n^2 = 169</m>.</p></hint>
+        <answer><p><m>13</m></p></answer>
+      </task>
+    </exercise>
+    <exercise xml:id="ex-proof-multiple">
+      <title>A Proof</title>
+      <statement>
+        <p>Prove that if <m>a \divides b</m> then <m>a \divides bc</m> for every integer <m>c</m>.</p>
+      </statement>
+      <hint>
+        <p>Start from <xref ref="def-divides" />.</p>
+      </hint>
+      <solution>
+        <p>Write <m>b = ak</m>. Then <m>bc = a(kc)</m>, and <m>kc</m> is an integer.</p>
+      </solution>
+    </exercise>
+  </exercises>
+</chapter>

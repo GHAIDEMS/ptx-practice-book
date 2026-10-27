@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="sec-definitions-theorems" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Definitions, Theorems and Proofs</title>
+  <definition xml:id="def-divides">
+    <title>Divisibility</title>
+    <idx><h>divisibility</h></idx>
+    <statement>
+      <p>Let <m>a</m> and <m>b</m> be integers. We say that <m>a</m> <term>divides</term> <m>b</m>, written <m>a \divides b</m>, if there is an integer <m>k</m> with <m>b = ak</m>.</p>
+    </statement>
+  </definition>
+  <definition xml:id="def-prime">
+    <title>Prime Number</title>
+    <idx><h>prime number</h></idx>
+    <statement>
+      <p>An integer <m>p \gt 1</m> is <term>prime</term> if its only positive divisors are <m>1</m> and <m>p</m>.</p>
+    </statement>
+  </definition>
+  <lemma xml:id="lem-divides-sum">
+    <title>Divisors of a Sum</title>
+    <statement>
+      <p>If <m>d \divides a</m> and <m>d \divides b</m>, then <m>d \divides (a+b)</m>.</p>
+    </statement>
+    <proof>
+      <p>By <xref ref="def-divides" /> there are integers <m>j</m> and <m>k</m> with <m>a = dj</m> and <m>b = dk</m>. Then <m>a + b = d(j+k)</m>, and <m>j+k</m> is an integer.</p>
+    </proof>
+  </lemma>
+  <theorem xml:id="thm-sum-odd">
+    <title>Sum of Odd Numbers</title>
+    <idx><h>odd numbers</h><h>sum of</h></idx>
+    <statement>
+      <p>For every natural number <m>n</m>, the sum of the first <m>n</m> odd numbers is <m>n^2</m>.</p>
+    </statement>
+    <proof>
+      <p>We use induction on <m>n</m>. For <m>n = 1</m> the sum is <m>1 = 1^2</m>. Suppose the claim holds for <m>n</m>. Then</p>
+      <md>1 + 3 + \cdots + (2n-1) + (2n+1) = n^2 + 2n + 1 = (n+1)^2</md>,
+      <p>so the claim holds for <m>n+1</m>.</p>
+    </proof>
+  </theorem>
+  <corollary xml:id="cor-sum-ten">
+    <statement>
+      <p>The sum of the first ten odd numbers is <m>100</m>.</p>
+    </statement>
+    <proof>
+      <p>Take <m>n = 10</m> in <xref ref="thm-sum-odd" />.</p>
+    </proof>
+  </corollary>
+</section>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="sec-lists" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Lists</title>
+  <p>A bulleted list, when the order does not matter:</p>
+  <ul>
+    <li><p>chapters</p></li>
+    <li><p>sections</p></li>
+    <li><p>subsections</p></li>
+  </ul>
+  <p>A numbered list, when the order matters, with a nested list inside the second item:</p>
+  <ol>
+    <li><p>Write the source.</p></li>
+    <li>
+      <p>Build the book:</p>
+      <ul>
+        <li><p>as a web page</p></li>
+        <li><p>as a PDF</p></li>
+      </ul>
+    </li>
+    <li><p>Read the warnings.</p></li>
+  </ol>
+  <p>A description list, for terms and their meanings:</p>
+  <dl>
+    <li>
+      <title>Chapter</title>
+      <p>The largest division of a book that we use.</p>
+    </li>
+    <li>
+      <title>Section</title>
+      <p>A part of a chapter.</p>
+    </li>
+  </dl>
+</section>

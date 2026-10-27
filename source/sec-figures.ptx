@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="sec-figures" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Figures and Images</title>
+  <p><xref ref="fig-parabola" /> shows the graph of <m>y = x^2</m>.</p>
+  <figure xml:id="fig-parabola">
+    <caption>The graph of <m>y = x^2</m></caption>
+    <image source="images/parabola" width="50%">
+      <shortdescription>Graph of y equals x squared.</shortdescription>
+      <description>
+        <p>A U-shaped curve opening upward. It touches the horizontal axis at the origin and rises steeply to the left and to the right, symmetric about the vertical axis.</p>
+      </description>
+    </image>
+  </figure>
+  <p>Two figures can sit next to each other in a <c>sidebyside</c>, as in <xref ref="fig-triangle" /> and <xref ref="fig-squares" />.</p>
+  <sidebyside widths="45% 45%" margins="auto">
+    <figure xml:id="fig-triangle">
+      <caption>A right triangle</caption>
+      <image source="images/triangle">
+        <shortdescription>A right triangle with sides 3, 4 and 5.</shortdescription>
+        <description>
+          <p>A right triangle whose short sides are labelled 3 and 4 and whose longest side is labelled 5. The right angle is marked at the lower left.</p>
+        </description>
+      </image>
+    </figure>
+    <figure xml:id="fig-squares">
+      <caption>Square numbers</caption>
+      <image source="images/square-numbers">
+        <shortdescription>Dot arrays showing 1, 4 and 9.</shortdescription>
+        <description>
+          <p>Three square arrays of dots: one dot, then two by two dots, then three by three dots, labelled 1, 4 and 9.</p>
+        </description>
+      </image>
+    </figure>
+  </sidebyside>
+</section>
